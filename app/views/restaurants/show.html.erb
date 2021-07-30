@@ -5,6 +5,7 @@
       <h3>
         <%= pluralize @restaurant.reviews.count, "review" %>
       </h3>
+      <%= render 'reviews/index', restaurant: @restaurant %>
       <%= render 'reviews/form', restaurant: @restaurant, review: @review %>
     </div>
     <div class="col-md-4">
