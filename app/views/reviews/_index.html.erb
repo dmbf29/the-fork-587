@@ -2,6 +2,6 @@
   <% if restaurant.reviews.blank? %>
     Be the first to leave a review for <%= restaurant.name %>
   <% else %>
-    <%= render restaurant.reviews.order(created_at: :desc) %>
+    <%= render restaurant.reviews.order(created_at: :asc) %>
   <% end %>
 </div>

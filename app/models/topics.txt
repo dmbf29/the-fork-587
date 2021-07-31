@@ -1,0 +1,10 @@
+# TOPICS FOR TODAY
+
+# Having clean code in our Rails projects
+# 1. auto indenter
+# 2. using HTML partials
+  <%= render 'form' %>
+
+# AJAX in Rails
+# Stimulus in Rails
+ - replaces document.querySelector
